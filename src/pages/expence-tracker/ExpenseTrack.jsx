@@ -98,7 +98,7 @@ const ExpenseTrack = () => {
                 placeholder="Description"
                 required
                 value={description}
-                onChange={(e) => setDescription(e.target.value)}
+                onChange={(e) => setDiscription(e.target.value)}
               />
               <input
                 className="border border-gray-300 rounded-lg py-2 px-4 w-full md:w-1/4 focus:outline-none focus:ring-2 focus:ring-blue-500"
